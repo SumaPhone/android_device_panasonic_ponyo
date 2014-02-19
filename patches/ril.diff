@@ -252,7 +252,7 @@ diff --git a/hardware/ril/rild/Android.mk b/hardware/ril/rild/Android.mk
 diff --git a/frameworks/base/telephony/java/com/android/internal/telephony/PanasonicQualcommRIL.java b/frameworks/base/telephony/java/com/android/internal/telephony/PanasonicQualcommRIL.java
 --- /dev/null
 +++ b/frameworks/base/telephony/java/com/android/internal/telephony/PanasonicQualcommRIL.java
-@@ -0,0 +1,845 @@
+@@ -0,0 +1,840 @@
 + /*
 +  * Copyright (C) 2012 The CyanogenMod Project
 +  *
