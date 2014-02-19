@@ -15,7 +15,7 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 
 #### ビルド環境
 *   Lubuntu 13.04 x64 (on Windows 7 with VMWare Player)
-*   Open Java
+*   openjdk-6-jdk:amd64
 
 
 #### ビルド前に以下のリンクを読んで理解すること。
