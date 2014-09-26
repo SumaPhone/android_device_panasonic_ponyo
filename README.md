@@ -28,7 +28,7 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 	mkdir cyanogenmod; cd cyanogenmod
 	repo init -u git://github.com/CyanogenMod/android.git -b ics
 	cd .repo
-	wget https://raw.github.com/CM4IS01/android_device_panasonic_ponyo/ics/local_manifest.xml
+	wget https://raw.github.com/chuukai/android_device_panasonic_ponyo/ics/local_manifest.xml
 	cd ..
 	repo sync
 
