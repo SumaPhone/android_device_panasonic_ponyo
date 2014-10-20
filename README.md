@@ -37,6 +37,8 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 	sudo sh extract-files.sh
 
 [QDevNet](https://developer.qualcomm.com/mobile-development/mobile-technologies/gaming-graphics-optimization-adreno/tools-and-resources)からICS用のドライバを取得してvendorツリーへ置く
+上記リンク切れでこちらからダウロード。要登録。[QDevNet](https://developer.qualcomm.com/download/adreno200-aulinuxandroidicschococs04000306001.zip)
+
 	
 #### Cyanogenmodのソースにパッチを当てる
 	cd cyanogenmod
