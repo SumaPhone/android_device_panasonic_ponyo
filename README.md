@@ -2,25 +2,21 @@ Cyanogenmod for P-01D
 =====================
 
 ### 概要
-P-01DのOSをCyanogenmod用に移植するプロジェクトです。 協力者は随時募集しています。
+P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 
 ### 注意点
 *   転んでも泣かないこと。
 *   すべて自己責任です。
 
 ### 連絡
-*   フォークについてはDevRenax氏とは無関係ということで、氏にご連絡はなさらないように願います。
+*   フォークについてはDevRenax氏およびchuukai氏とは無関係ということで、氏にご連絡はなさらないように願います。
    
 ### ビルド方法
 
 #### ビルド環境
-*   Ubuntu 12.04 x64
-*   Oracle JDK 6 x64
+*   Ubuntu 14.04.6 LTS x64
+*   openjdk-6-jdk:amd64
 
-上記以外はノンサポでどうぞ
-
-#### ビルドエラーやバグの報告時の注意
-自分のビルド環境やエラーログを報告時に添付してください。これが無い場合、基本的に返信はしません。
 
 #### ビルド前に以下のリンクを読んで理解すること。
 *  [Cyanogenmod Wiki](http://wiki.cyanogenmod.com/index.php?title=Main_Page)
@@ -30,9 +26,9 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。 協力者�
 
 #### Cyanogenmodのソースコードを取得 (CM10の場合)
 	mkdir cyanogenmod; cd cyanogenmod
-	repo init -u git://github.com/CyanogenMod/android.git -b jellybean
+	repo init -u https://github.com/CyanogenMod/android.git -b jellybean
 	cd .repo
-	wget https://raw.github.com/chuukai/android_device_panasonic_ponyo/jb-dev/local_manifest.xml
+	wget https://raw.github.com/SumaPhone/android_device_panasonic_ponyo/jb-dev/local_manifest.xml
 	cd ..
 	repo sync
 
