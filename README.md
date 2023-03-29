@@ -9,12 +9,12 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 *   すべて自己責任です。
 
 ### 連絡
-*   フォークについてはDevRenax氏とは無関係ということで、氏にご連絡はなさらないように願います。
+*   フォークについてはDevRenax氏およびchuukai氏とは無関係ということで、氏にご連絡はなさらないように願います。
 
 ### ビルド方法
 
 #### ビルド環境
-*   Lubuntu 13.04 x64 (on Windows 7 with VMWare Player)
+*   Ubuntu 14.04.6 LTS x64
 *   openjdk-6-jdk:amd64
 
 
@@ -28,7 +28,7 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 	mkdir cyanogenmod; cd cyanogenmod
 	repo init -u git://github.com/CyanogenMod/android.git -b ics
 	cd .repo
-	wget https://raw.github.com/chuukai/android_device_panasonic_ponyo/ics/local_manifest.xml
+	wget https://raw.github.com/SumaPhone/android_device_panasonic_ponyo/ics/local_manifest.xml
 	cd ..
 	repo sync
 
