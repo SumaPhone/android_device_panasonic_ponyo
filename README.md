@@ -26,7 +26,7 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 
 #### Cyanogenmodのソースコードを取得 (CM9の場合)
 	mkdir cyanogenmod; cd cyanogenmod
-	repo init -u git://github.com/CyanogenMod/android.git -b ics
+	repo init -u https://github.com/CyanogenMod/android.git -b ics
 	cd .repo
 	wget https://raw.github.com/SumaPhone/android_device_panasonic_ponyo/ics/local_manifest.xml
 	cd ..
