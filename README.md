@@ -28,9 +28,10 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 	mkdir cyanogenmod; cd cyanogenmod
 	repo init -u https://github.com/CyanogenMod/android.git -b ics
 	cd .repo
+	mkdir local_manifests ; cd local_manifests
 	wget https://raw.github.com/SumaPhone/android_device_panasonic_ponyo/ics/local_manifest.xml
-	cd ..
-	repo sync
+	cd ../..
+	repo sync --no-clone-bundle
 
 #### 必要なプロプライエタリファイルを取得・vendorツリーの生成
 	cd cyanogenmod/device/panasonic/ponyo
