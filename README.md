@@ -1,3 +1,6 @@
+* Wi-Fiが動かないなど、動作が不安定なため本ツリーでのJBビルドは推奨しません。
+* JBをビルドする際は[CMonP01D/android_kernel_panasonic_p01d](https://github.com/CMonP01D/android_kernel_panasonic_p01d)を使用してください。
+
 Cyanogenmod for P-01D
 =====================
 
@@ -29,7 +32,7 @@ P-01DのOSをCyanogenmod用に移植するプロジェクトです。
 	repo init -u https://github.com/CyanogenMod/android.git -b jellybean
 	cd .repo
 	mkdir local_manifests ; cd local_manifests
-	wget https://raw.github.com/SumaPhone/android_device_panasonic_ponyo/jb-dev/local_manifest.xml
+	wget https://raw.github.com/SumaPhone/android_device_panasonic_ponyo/deprecated/jb-dev/local_manifest.xml
 	cd ../..
 	repo sync --no-clone-bundle
 
