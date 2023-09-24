@@ -1,5 +1,5 @@
 * Wi-Fiが動かないなど、動作が不安定なため本ツリーでのJBビルドは推奨しません。
-* JBをビルドする際は[CMonP01D/android_kernel_panasonic_p01d](https://github.com/CMonP01D/android_kernel_panasonic_p01d)を使用してください。
+* JBをビルドする際は[CMonP01D/android_device_panasonic_p01d](https://github.com/CMonP01D/android_device_panasonic_p01d)を使用してください。
 
 Cyanogenmod for P-01D
 =====================
